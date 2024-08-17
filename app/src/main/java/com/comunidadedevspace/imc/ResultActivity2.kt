@@ -26,7 +26,7 @@ class ResultActivity2 : AppCompatActivity() {
             "MAGREZA"
 
         } else if (result < 18.5f && result <= 24.9f) {
-            "NORMAL"
+            "NORMAL" 
 
         } else if (result > 25f && result <= 29.9f) {
             "SOBREPESO"
