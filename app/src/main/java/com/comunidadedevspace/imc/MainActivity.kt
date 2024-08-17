@@ -37,17 +37,16 @@ class MainActivity : AppCompatActivity() {
                 val peso = pesoStr.toFloat()
                 val altura = alturaStr.toFloat()
 
-
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
-
-                println("Lucas acao do botao" + resultado)
 
                 val intent = Intent(this, ResultActivity2::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
-                println("Lucas acao do Botton" + resultado)
+                // Cores
+                //EditText background + Icone
+                // Gradiente + icone + titulo + descricao
             }
         }
     }}
