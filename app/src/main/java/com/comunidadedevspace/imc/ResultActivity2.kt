@@ -22,7 +22,7 @@ class ResultActivity2 : AppCompatActivity() {
 
         tvResult.text = result.toString()
 
-        val classification: String? = if (result <= 18.5f) {
+        val classification: String = if (result <= 18.5f) {
             "MAGREZA"
 
         } else if (result < 18.5f && result <= 24.9f) {
